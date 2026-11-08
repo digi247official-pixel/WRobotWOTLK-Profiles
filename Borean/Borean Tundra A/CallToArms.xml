@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EasyQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestsSorted>
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="Pulse" NameClass="Spot" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="CalltoArms" />
+    <QuestsSorted Action="Wait" NameClass="2500" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="Pulse" NameClass="CalltoArms" />
+    <QuestsSorted Action="Wait" NameClass="2500" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="Pulse" NameClass="CalltoArms" />
+    <QuestsSorted Action="Wait" NameClass="2500" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="Pulse" NameClass="CalltoArms" />
+    <QuestsSorted Action="Wait" NameClass="2500" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="Pulse" NameClass="CalltoArms" />
+    <QuestsSorted Action="Wait" NameClass="2500" />
+    <QuestsSorted Action="RunCode" NameClass="robotManager.Helpful.Mouse.CurseurWindowPercentagePosition(wManager.Wow.Memory.WowMemory.Memory.WindowHandle, 50, 50);&#xD;&#xA;robotManager.Helpful.Mouse.ClickRight();" />
+    <QuestsSorted Action="If" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="TurnIn" NameClass="CalltoArms" />
+    <QuestsSorted Action="EndIf" NameClass="Quest.IsObjectiveComplete(1, 11965)" />
+    <QuestsSorted Action="Pulse" NameClass="Path1" />
+    <QuestsSorted Action="LoadProfile" NameClass="Borean\Borean Tundra A\1-Valliance Keep Start.xml" />
+  </QuestsSorted>
+  <NpcQuest>
+    <NPCQuest Id="26083" Name="Gerald Green" GameObject="false">
+      <PickUpQuests>
+        <int>11965</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>11965</int>
+      </TurnInQuests>
+      <Position X="2483.26" Y="5215.05" Z="30.18525" Type="Flying" />
+    </NPCQuest>
+  </NpcQuest>
+  <Npc />
+  <EasyQuests>
+    <EasyQuest>
+      <Name>Call to Arms!</Name>
+      <QuestId>
+        <int>11965</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots />
+        <EntryIdObjects>
+          <int>188163</int>
+        </EntryIdObjects>
+      </QuestClass>
+      <ObjectiveCount1>1</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Path1</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="2617.189" Y="5258.326" Z="48.22154" />
+          <Vector3 X="2617.196" Y="5255.721" Z="48.09286" />
+          <Vector3 X="2615.264" Y="5252.803" Z="48.01731" />
+          <Vector3 X="2615.958" Y="5249.65" Z="47.96527" />
+          <Vector3 X="2618.555" Y="5247.303" Z="47.94349" />
+          <Vector3 X="2621.132" Y="5244.935" Z="47.93607" />
+          <Vector3 X="2623.71" Y="5242.567" Z="47.96436" />
+          <Vector3 X="2626.292" Y="5240.194" Z="47.99313" />
+          <Vector3 X="2628.782" Y="5240.553" Z="48.05003" />
+          <Vector3 X="2631.15" Y="5243.13" Z="48.10128" />
+          <Vector3 X="2633.518" Y="5245.708" Z="48.13371" />
+          <Vector3 X="2635.886" Y="5248.285" Z="48.0779" />
+          <Vector3 X="2638.254" Y="5250.862" Z="48.02198" />
+          <Vector3 X="2635.911" Y="5254.655" Z="47.97042" />
+          <Vector3 X="2633.468" Y="5257.161" Z="47.94265" />
+          <Vector3 X="2631.025" Y="5259.667" Z="47.95121" />
+          <Vector3 X="2628.581" Y="5262.173" Z="47.97579" />
+          <Vector3 X="2626.465" Y="5264.343" Z="48.00276" />
+          <Vector3 X="2623.378" Y="5261.333" Z="48.08446" />
+          <Vector3 X="2622.125" Y="5260.111" Z="48.11622" />
+          <Vector3 X="2621.387" Y="5260.868" Z="48.18188" />
+          <Vector3 X="2620.815" Y="5261.454" Z="48.20762" />
+          <Vector3 X="2619.828" Y="5262.466" Z="48.2238" />
+          <Vector3 X="2619.261" Y="5263.048" Z="48.23699" />
+          <Vector3 X="2618.447" Y="5263.711" Z="48.27422" />
+          <Vector3 X="2618.277" Y="5263.545" Z="48.27422" />
+          <Vector3 X="2617.406" Y="5261.806" Z="48.30111" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Spot</Name>
+      <QuestId />
+      <QuestType>FollowPath</QuestType>
+      <QuestClass xsi:type="FollowPathEasyQuestClass">
+        <Path>
+          <Vector3 X="2618.004" Y="5263.288" Z="48.27377" />
+          <Vector3 X="2617.009" Y="5258.713" Z="48.22667" />
+          <Vector3 X="2614.056" Y="5252.637" Z="48.00911" />
+          <Vector3 X="2618.331" Y="5256.581" Z="48.11281" />
+          <Vector3 X="2620.801" Y="5259.071" Z="48.17051" />
+          <Vector3 X="2619.873" Y="5262.26" Z="48.22304" />
+          <Vector3 X="2619.299" Y="5262.834" Z="48.24015" />
+          <Vector3 X="2618.719" Y="5263.413" Z="48.24466" />
+          <Vector3 X="2618.224" Y="5263.908" Z="48.30577" />
+          <Vector3 X="2618.224" Y="5263.908" Z="48.30577" />
+        </Path>
+        <IsCompleteWhenAtLastPath>true</IsCompleteWhenAtLastPath>
+        <ForceToStartFirstPosition>true</ForceToStartFirstPosition>
+        <IsHotSpots>false</IsHotSpots>
+        <IsLoop>false</IsLoop>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+  </EasyQuests>
+  <Script>
+public class MyCustomScript
+{
+    static MyCustomScript()
+    {
+        // You can put here code to run when bot start, you can also add methods and classes.
+    }
+}
+</Script>
+  <OffMeshConnections />
+  <BlacklistNpc />
+  <BlacklistNpcType />
+  <Blackspots />
+</EasyQuestProfile>

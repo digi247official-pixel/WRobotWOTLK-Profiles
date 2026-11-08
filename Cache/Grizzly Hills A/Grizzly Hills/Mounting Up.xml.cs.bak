@@ -1,0 +1,206 @@
+
+using System.Linq;
+using robotManager.Helpful;
+using wManager.Wow.Class;
+using wManager.Wow.Enums;
+using wManager.Wow.Helpers;
+using wManager.Wow.ObjectManager;
+using System.Collections.Generic;
+using System.Threading;
+using wManager.Wow.Bot.Tasks;
+
+
+public class MyCustomScript
+{
+    static MyCustomScript()
+    {
+        // You can put here code to run when bot start, you can also add methods and classes.
+    }
+}
+
+
+
+public sealed class TurnIn : QuestFollowPathClass
+{
+    public TurnIn()
+    {
+        Name = "Turn In";
+
+        QuestId.AddRange(new[] { 0 });
+
+        Step = new List<int> { 0, 0, 0, 0, 0 };
+
+        StepAutoDetect = new[] { false, false, false, false, false };
+
+        PickUpQuestOnItem = false;
+        PickUpQuestOnItemID = 0;
+
+        GossipOptionItem = 1;
+
+        WoWClass = wManager.Wow.Enums.WoWClass.None;
+        MinLevel = 0;
+        MaxLevel = 100;
+        RequiredQuest = 0;
+
+        Path.Add(new Vector3(4587.627 , -4215.174 , 178.3663 , "None"));
+IsCompleteWhenAtLastPath = true;
+ForceToStartFirstPosition = false;
+IsHotSpots = false;
+IsLoop = false;
+
+    }
+
+	public override bool CanConditions()
+	{
+        return true;
+	}
+
+
+
+
+
+public override bool HasQuest() { return true; }
+
+
+}
+
+
+public sealed class Carrot : QuestGathererClass
+{
+    public Carrot()
+    {
+        Name = "Carrot";
+
+        QuestId.AddRange(new[] { 0 });
+
+        Step = new List<int> { 0, 0, 0, 0, 0 };
+
+        StepAutoDetect = new[] { false, false, false, false, false };
+
+        PickUpQuestOnItem = false;
+        PickUpQuestOnItemID = 0;
+
+        GossipOptionItem = 1;
+
+        WoWClass = wManager.Wow.Enums.WoWClass.None;
+        MinLevel = 0;
+        MaxLevel = 100;
+        RequiredQuest = 0;
+
+        EntryIdObjects.Add(189983);
+HotSpots.Add(new Vector3(4485.241 , -4240.499 , 164.895 , "None"));
+HotSpots.Add(new Vector3(4463.542 , -4299.554 , 161.3867 , "None"));
+HotSpots.Add(new Vector3(4439.168 , -4319.041 , 159.7668 , "None"));
+HotSpots.Add(new Vector3(4356.53 , -4287.646 , 161.6199 , "None"));
+HotSpots.Add(new Vector3(4364.058 , -4345.262 , 158.703 , "None"));
+HotSpots.Add(new Vector3(4340.751 , -4391.164 , 155.2235 , "None"));
+HotSpots.Add(new Vector3(4388.221 , -4409.631 , 149.0934 , "None"));
+HotSpots.Add(new Vector3(4415.792 , -4380.67 , 151.5073 , "None"));
+
+    }
+
+	public override bool CanConditions()
+	{
+        return true;
+	}
+
+public override bool IsComplete() { 
+return ItemsManager.GetItemCountById(37707) >= 1;
+}
+
+
+
+public override bool HasQuest() { return true; }
+
+
+}
+
+
+public sealed class Horse : QuestUseItemOnClass
+{
+    public Horse()
+    {
+        Name = "Horse";
+
+        QuestId.AddRange(new[] { 0 });
+
+        Step = new List<int> { 0, 0, 0, 0, 0 };
+
+        StepAutoDetect = new[] { false, false, false, false, false };
+
+        PickUpQuestOnItem = false;
+        PickUpQuestOnItemID = 0;
+
+        GossipOptionItem = 1;
+
+        WoWClass = wManager.Wow.Enums.WoWClass.None;
+        MinLevel = 0;
+        MaxLevel = 100;
+        RequiredQuest = 0;
+
+        EntryIdTarget.Add(26472);
+HotSpots.Add(new Vector3(4391.108 , -4328.992 , 158.2199 , "None"));
+HotSpots.Add(new Vector3(4400.177 , -4364.176 , 154.4831 , "None"));
+HotSpots.Add(new Vector3(4362.803 , -4402.033 , 152.168 , "None"));
+HotSpots.Add(new Vector3(4352.609 , -4458.24 , 147.0823 , "None"));
+HotSpots.Add(new Vector3(4392.91 , -4450.604 , 140.6051 , "None"));
+ItemId = 37708;
+Range = 4.5f;
+
+    }
+
+	public override bool CanConditions()
+	{
+        return true;
+	}
+
+public override bool IsComplete() { 
+return ObjectManager.Me.InTransport;
+}
+
+
+
+public override bool HasQuest() { return true; }
+
+
+}
+
+
+public sealed class MountingUp : QuestGrinderClass
+{
+    public MountingUp()
+    {
+        Name = "Mounting Up";
+
+        QuestId.AddRange(new[] { 12414 });
+
+        Step = new List<int> { 5, 0, 0, 0, 0 };
+
+        StepAutoDetect = new[] { false, false, false, false, false };
+
+        PickUpQuestOnItem = false;
+        PickUpQuestOnItemID = 0;
+
+        GossipOptionItem = 1;
+
+        WoWClass = wManager.Wow.Enums.WoWClass.None;
+        MinLevel = 0;
+        MaxLevel = 100;
+        RequiredQuest = 0;
+
+        
+    }
+
+	public override bool CanConditions()
+	{
+        return true;
+	}
+
+
+
+
+
+
+
+
+}
